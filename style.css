@@ -266,6 +266,14 @@ ul.categ li{
 .mtx{
   margin-top: 60px;
 }
+.skill-meters{
+  order: 2;
+}
+.profile-info_text{
+  order: 1;
+}
+/* .Download{
+  order: 3;} */
 #contact{
    background:linear-gradient(to top , rgba(255, 255, 255, 0.92) ,rgb(255, 255, 255)), url(./src/img/bg.jpg)repeat center center/cover ;
 }
@@ -277,4 +285,33 @@ ul.categ li{
 }
 .thodajyadasekam{
   width: 70%;
+}
+.profile-intro .name{
+  display: none;
+}
+@media only screen  and (max-width:800px) {
+  .vw-s{
+    display: flex;
+    flex-wrap:wrap;
+
+  }
+ 
+  .profile{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .profile-intro{
+    min-width: 500px;
+  }
+  /* .Download{
+    order: 3;
+    /* transform: translateX(calc(100% + 90px)) translateY(35px); */
+
+  } */
+  .skill-meters{
+    order: 1;
+  }
+  .profile_info_text{
+    order: 2;
+  }
 }
